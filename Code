@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #9933cc;
+  color: #F0F8FF
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  background: #9933cc;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Lie Leon Alexius</h1>
+  <p>Welcome to my domain</p>
+</div>
+
+<div class="topnav">
+  <a href="https://discord.com/invite/KPfhGnh">Discord</a>
+  <a href="https://www.instagram.com/leon_alexius/">Instagram</a>
+  <a href="https://www.youtube.com/channel/UCJJV4ARqlxWlNfWbiakvPqQ">Youtube</a>
+  <a href="https://www.youtube.com/channel/UCDXpqH65ZFJtVmartlCUrcg">CaniDigitorial</a>
+  <a href="https://github.com/DarkRosaleen" style="float:right">Contact Me!</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><h2>Lie Leon Alexius</h2></center>
+      <center><div class="a-section a-spacing-none fluid-image-container"><img src="https://images.hdqwalls.com/wallpapers/lantern-night-clouds-lights-anime-stars-42.jpg" class="landscape-image" style="height:200px;"></div></center>
+      <center><p>Tugas TIK 19 Agustus 2020</p></center>
+    </div>
+    <div class="card">
+      <h2>Tugas Tabel Pertama</h2>
+      <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid #006400;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #FF00FF;
+}
+tr:nth-child(odd) {
+  background-color: #7FFF00;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+tr:hover {background-color:#00FFFF;}
+</style>
+</head>
+<body style="background-color:#9933cc;">
+
+<center><h2>Tugas Tabel</h2></center>
+<center><p>Daftar Nilai</p></center>
+
+<div style="overflow-x:auto;">
+ <table>
+  <tr>
+    <th rowspan="2"><center>No</center></th>
+    <th colspan="3"><center>Nilai</center></th>
+  </tr>
+  <tr>
+    <td><center>Fisika</center></td>
+    <td><center>Biologi</center></td>
+    <td><center>Math</center></td>
+  </tr>
+  <tr>
+    <td><center>1</center></td>
+    <td><center>97</center></td>
+    <td><center>95</center></td>
+    <td><center>100</center></td>
+  </tr>
+  <tr>
+    <td><center>2</center></td>
+    <td><center>95</center></td>
+    <td><center>97</center></td>
+    <td><center>100</center></td>
+  </tr>
+  <tr>
+    <td colspan="3"><center>Rata-Rata Matematika</center></td>
+    <td><center>100</center></td>
+  </tr>
+
+</table>
+</div>
+
+<br>
+<br>
+
+<div class="card">
+      <h2>Tugas Tabel Kedua</h2>
+      <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid #006400;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #FF00FF;
+}
+tr:nth-child(odd) {
+  background-color: #7FFF00;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+tr:hover {background-color:#00FFFF;}
+</style>
+</head>
+<body style="background-color:#E9967A;">
+
+<center><h2>Jadwal Pelajaran</h2></center>
+<center><p>SMA Kolese Kanisius</p></center>
+<center><p>Tahun Pelajaran 2020-2021</p></center>
+
+
+<div style="overflow-x:auto;">
+ <table>
+  <tr>
+    <th rowspan="3"><center>Hari</center></th>
+    <th rowspan="3"><center>Jam Ke</center></th>
+    <th rowspan="3"><center>Waktu</center></th>
+    <th><center>Kelas XI</center></th>
+    <th rowspan="3"><center>Piket</center></th>
+  </tr>
+  <tr>
+    <th><center>IPA</center></th>
+  </tr>
+  <tr>
+    <th><center>1 dan 2</center></th>
+  </tr>
+  <tr>
+    <th rowspan="8" style=background-color:#D2691E;><center>kamis</center></th>
+    <td><center>1</center></td>
+    <td><center>08.00-09.00</center></td>
+    <td><center>ING 1,3</center></td>
+    <th rowspan="8" style=background-color:#D2691E;><center>ING <br> RDP</center></th>
+  </tr>
+  
+  <tr>
+    <td><center>2</center></td>
+    <td><center>08.00-09.30</center></td>
+    <td><center>ORK 2</center></td>
+  </tr>
+    <tr>
+    <td><center>3</center></td>
+    <td><center>09.30-10.30</center></td>
+    <td><center>IND 1</center></td>
+  </tr>
+    <tr>
+    <td><center>4</center></td>
+    <td><center>10.30-11.00</center></td>
+    <td><center>Istirahat</center></td>
+  </tr>
+    <tr>
+    <td><center>5</center></td>
+    <td><center>11.00-12.00</center></td>
+    <td><center>Mat 3</center></td>
+  </tr>
+    <tr>
+    <td><center>6</center></td>
+    <td><center>12.00-13.00</center></td>
+    <td><center>Makan Siang</center></td>
+  </tr>
+    <tr>
+    <td><center>7</center></td>
+    <td><center>13.00-14.00</center></td>
+    <td><center>Fis 1</center></td>
+  </tr>
+    <tr>
+    <td><center>8</center></td>
+    <td><center>14.00-14.15</center></td>
+    <td><center>Eksamen dan Refleksi</center></td>
+  </tr>
+
+
+</table>
+</div>
+   
+</body>
+</html>
